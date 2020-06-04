@@ -8,15 +8,16 @@
  */
 
 package uptrends
-// ThrottlingValue : 
+
+// ThrottlingValue :
 type ThrottlingValue string
 
 // List of ThrottlingValue
 const (
-	ADSL_ThrottlingValue ThrottlingValue = "Adsl"
-	FIBER_ThrottlingValue ThrottlingValue = "Fiber"
-	CABLE_ThrottlingValue ThrottlingValue = "Cable"
-	2G__ThrottlingValue ThrottlingValue = "2G"
-	3G__ThrottlingValue ThrottlingValue = "3G"
-	4G__ThrottlingValue ThrottlingValue = "4G"
+	ThrottlingValueADSL  ThrottlingValue = "Adsl"
+	ThrottlingValueFIBER ThrottlingValue = "Fiber"
+	ThrottlingValueCABLE ThrottlingValue = "Cable"
+	ThrottlingValue2G    ThrottlingValue = "2G"
+	ThrottlingValue3G    ThrottlingValue = "3G"
+	ThrottlingValue4G    ThrottlingValue = "4G"
 )
