@@ -321,10 +321,14 @@ Class | Method | HTTP request | Description
 
 Example
 ```golang
-auth := context.WithValue(context.Background(), sw.ContextBasicAuth, sw.BasicAuth{
-	UserName: "username",
-	Password: "password",
-})
+auth := context.WithValue(
+	context.Background(),
+	uptrends.ContextBasicAuth,
+	uptrends.BasicAuth{
+		UserName: "username",
+		Password: "password",
+	}
+)
 r, err := client.Service.Operation(auth, args)
 ```
 ## user-basicauth
@@ -332,10 +336,14 @@ r, err := client.Service.Operation(auth, args)
 
 Example
 ```golang
-auth := context.WithValue(context.Background(), sw.ContextBasicAuth, sw.BasicAuth{
-	UserName: "username",
-	Password: "password",
-})
+auth := context.WithValue(
+	context.Background(),
+	uptrends.ContextBasicAuth,
+	uptrends.BasicAuth{
+		UserName: "username",
+		Password: "password",
+	}
+)
 r, err := client.Service.Operation(auth, args)
 ```
 
