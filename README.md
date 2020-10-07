@@ -5,7 +5,7 @@
 ```sh
 $ java -jar ./swagger-codegen-cli.jar \
     generate -DpackageName=uptrends \
-    -i "https://api.uptrends.com/v4/swagger/v1/swagger.json"
+    -i "https://api.uptrends.com/v4/swagger/v1/swagger.json" \
 	-l go
 ```
 
