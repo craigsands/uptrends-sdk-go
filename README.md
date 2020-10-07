@@ -1,5 +1,16 @@
 # Go API client for uptrends
 
+*The library in this repository was automatically generated using 
+[Swagger Codegen](https://github.com/swagger-api/swagger-codegen).*
+```sh
+$ java -jar ./swagger-codegen-cli.jar \
+    generate -DpackageName=uptrends \
+    -i "https://api.uptrends.com/v4/swagger/v1/swagger.json"
+	-l go
+```
+
+---
+
 This document describes Uptrends API version 4. This Swagger environment also lets you execute API methods directly.  Please note that this is not a sandbox environment: these API methods operate directly on your actual Uptrends account.  For more information, please visit https://www.uptrends.com/api.
 
 ## Overview
